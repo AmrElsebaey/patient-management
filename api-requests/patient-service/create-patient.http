@@ -1,0 +1,13 @@
+### Post request to create patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Amr Elsebaey",
+  "email": "amrelsebay3@gmail.com",
+  "address": "123 main street",
+  "dateOfBirth": "1999-07-05",
+  "registeredDate": "2025-03-01"
+}
+
+###
